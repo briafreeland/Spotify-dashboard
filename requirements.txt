@@ -1,6 +1,7 @@
-streamlit
-pandas
-plotly
-Sqlalchemy
-Pymysql
-numpy
+streamlit>=1.30.0
+pandas>=2.0.0
+numpy>=1.25.0
+plotly>=5.20.0
+statsmodels>=1.1.0
+sqlalchemy>=2.0.0
+pymysql>=1.1.0
