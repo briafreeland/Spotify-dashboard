@@ -2,9 +2,11 @@
 Interactive dashboard analyzing Spotify, Youtube, and Tiktok streaming data
 
 Overview:
+
 This project explores and analyzes the most streamed Spotify songs of 2024, providing insights on streaming trends, artist popularity, and playlist impact. Using Python for data cleaning and analysis, and Streamlit for an interactive dashboard, the project demonstrates the ability to turn raw data into actionable insights and visualizations.
 
 Project Goals:
+
 Data Cleaning & Exploration
   Inspect and clean the raw Spotify dataset for analysis.
   Standardize columns, handle missing values, and format dates and numeric fields.
@@ -22,11 +24,13 @@ Interactive Dashboard
   Includes bar charts, scatter plots, and summary metrics for quick insights.
   
 Dataset:
+
   Source: Spotify Most Streamed Songs 2024 (CSV)
   Rows: 4,598 songs
   Columns: 29 (including track, album, artist, release date, streams, playlist info, and social metrics)
   
 Key CSV Files included in this repo:
+
   spotify_cleaned.csv --> cleaned and processed dataset for analysis
   top_songs.csv --> Top 10 most streamed songs
   top_artists.csv --> Top 10 most streamed artists  
@@ -36,6 +40,7 @@ Key CSV Files included in this repo:
   spotify_youtube_correlation.csv --> Correlation between Spotify popularity and Youtube views
 
 Technologies Used:
+
   Python --> Pandas, NumPy for data analysis
   Plotly --> Visualizations (bar charts, scatter plots)
   Streamlit --> Interactive dashboard
