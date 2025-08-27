@@ -70,3 +70,71 @@ Technologies Used:
   - Streamlit --> Interactive dashboard
   
   - MySql --> Optional storage for cleaned dataset
+
+Usage:
+
+Clone the repository:
+
+    git clone https://github.com/YOUR-USERNAME/spotify-dashboard.git
+
+Navigate to the project folder:
+
+    cd spotify-dashboard
+
+Install required packages:
+
+    pip install -r requirements.txt
+
+Run the Streamlit dashboard:
+
+    streamlit run spotify_dashboard.py
+
+Dashboard Features:
+
+- Dataset Overview --> First 5 rows, total songs, total streams, and average popularity.
+
+- Top 10 Songs & Artists --> Horizontal bar charts for quick insight.
+
+- Spotify vs Youtube --> Correlation visualization between streams and Youtube views.
+
+- Streams by Year --> Trend analysis of streams over time.
+
+- Playlist Impact --> Scatter plot to explore the relationship between playlist count and popularity
+
+- Top Artists Across All Platforms --> Horizontal bar chart showing total streams across Spotify, Youtube, and Tiktok
+
+Insights:
+
+ - Lower overall ranks indicate artist with higher dominance across platforms.
+
+ - Spotify streams generally correlate with Youtube views, indicating cross-platform popularity.
+
+ - Songs added to more playlists tend to receiver higher streams, showing playlist impact.
+
+ - Certain years/eras produce more long-term hits, helping identify trends over time.
+
+Recommendations:
+
+Top Songs & Artists
+
+ - Spotify could feature playlists or promotions around these high-performing artists to increasse engagement further.
+
+Platform Correlation
+ - Cross-platform promotions can help artists reach audiences on multiple platforms simutaneously.
+
+Trends Over Time
+
+ - Spotify can highlight "classic hits" alongside trending tracks to engage users with both nostalgia and current hits.
+
+Playlist Impact
+
+ - Curating playlists that highlight emerging artists or underrepresented tracks can boost engagement and discoverability.
+
+Top Artists Across All Platforms
+
+ - Identify these multi-platform stars for partnerships, exclusive content, or marketing campaigns.
+
+
+License:
+
+This project is for personal and educational purposes.
