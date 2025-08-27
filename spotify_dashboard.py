@@ -186,11 +186,19 @@ st.plotly_chart(fig_top_artists_all, use_container_width=True)
 
 page_bg_pattern = """
 <style>
-[data-testid="stAppViewContainer"] {
-    background-color: #f4f4f9;
-    background-image: radial-gradient(#e5e5e5 1px, transparent 1px);
+/* Main app container */
+[data-testid="stAppViewContainer"], 
+[data-testid="stSidebar"] {
+    background-color: #f4f4f9;  /* base color */
+    background-image: radial-gradient(#e5e5e5 1px, transparent 1px);  /* grid pattern */
     background-size: 20px 20px;
+}
+
+/* Optional: remove sidebar default background if needed */
+[data-testid="stSidebar"] {
+    background-color: #f4f4f9;
 }
 </style>
 """
 st.markdown(page_bg_pattern, unsafe_allow_html=True)
+
