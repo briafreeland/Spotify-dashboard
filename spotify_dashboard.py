@@ -186,15 +186,24 @@ st.plotly_chart(fig_top_artists_all, use_container_width=True)
 
 page_bg_pattern = """
 <style>
+/* App background */
 [data-testid="stAppViewContainer"] {
     background-color: #f4f4f9;
     background-image: radial-gradient(#e5e5e5 1px, transparent 1px);
     background-size: 20px 20px;
-    color: black; /* Make text black */
+    color: black; /* Base text */
 }
 
-/* Force text in widgets, labels, and headers to be black */
-.stMarkdown, .stText, .stHeader, .stSubheader, .stDataFrame, .stTable, p, h1, h2, h3, h4, h5, h6 {
+/* Force all text elements black */
+.stMarkdown, .stText, .stHeader, .stSubheader, .stDataFrame, .stTable, 
+p, h1, h2, h3, h4, h5, h6 {
+    color: black !important;
+}
+
+/* Force st.metric (Quick Stats) text black */
+[data-testid="stMetricValue"], 
+[data-testid="stMetricLabel"], 
+[data-testid="stMetricDelta"] {
     color: black !important;
 }
 </style>
