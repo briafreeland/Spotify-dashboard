@@ -1,6 +1,10 @@
 # Spotify-dashboard
 Interactive dashboard analyzing Spotify, Youtube, and Tiktok streaming data
 
+**Live Demo:** [Streamlit App](https://spotify-dashboard-yourname.streamlit.app)  
+
+ **Source Code:** [GitHub Repo](https://github.com/yourusername/spotify-dashboard)  
+
 Overview:
 
 This project explores and analyzes the most streamed Spotify songs of 2024, providing insights on streaming trends, artist popularity, and playlist impact. Using Python for data cleaning and analysis, and Streamlit for an interactive dashboard, the project demonstrates the ability to turn raw data into actionable insights and visualizations.
