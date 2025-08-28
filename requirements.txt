@@ -1,8 +1,8 @@
 streamlit
-statsmodels==0.14.2
+statsmodels
 pandas
 plotly
 sqlalchemy
 pymysql
 numpy
-scipy==1.13.1
+scipy
