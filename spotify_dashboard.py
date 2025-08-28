@@ -186,19 +186,17 @@ st.plotly_chart(fig_top_artists_all, use_container_width=True)
 
 page_bg_pattern = """
 <style>
-/* Main app container */
-[data-testid="stAppViewContainer"], 
-[data-testid="stSidebar"] {
-    background-color: #f4f4f9;  /* base color */
-    background-image: radial-gradient(#e5e5e5 1px, transparent 1px);  /* grid pattern */
+[data-testid="stAppViewContainer"] {
+    background-color: #f4f4f9;
+    background-image: radial-gradient(#e5e5e5 1px, transparent 1px);
     background-size: 20px 20px;
+    color: black; /* Make text black */
 }
 
-/* Optional: remove sidebar default background if needed */
-[data-testid="stSidebar"] {
-    background-color: #f4f4f9;
+/* Force text in widgets, labels, and headers to be black */
+.stMarkdown, .stText, .stHeader, .stSubheader, .stDataFrame, .stTable, p, h1, h2, h3, h4, h5, h6 {
+    color: black !important;
 }
 </style>
 """
 st.markdown(page_bg_pattern, unsafe_allow_html=True)
-
